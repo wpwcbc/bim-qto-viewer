@@ -6,6 +6,8 @@ This project explores how building information can be extracted from IFC models 
 
 ## Demo
 
+Site: https://bim-qto-viewer.netlify.app/
+
 ### 1. Model Visualization
 
 Interactive visualization of the IFC structural model with camera navigation.
