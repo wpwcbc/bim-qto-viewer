@@ -1,0 +1,23 @@
+{
+  "name": "threejs-first-render",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/three": "^0.187.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6"
+  },
+  "dependencies": {
+    "@thatopen/components": "^3.6.0",
+    "@thatopen/components-front": "^3.6.1",
+    "@thatopen/fragments": "^3.6.1",
+    "three": "^0.187.0",
+    "web-ifc": "^0.0.80"
+  }
+}

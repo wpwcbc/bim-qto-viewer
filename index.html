@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>threejs-first-render</title>
+	</head>
+	<body>
+		<div id="app"></div>
+
+		<aside id="properties-panel">
+			<h2>Element Properties</h2>
+
+			<dl>
+				<dt>Name</dt>
+				<dd id="property-name">Select an element</dd>
+
+				<dt>GlobalId</dt>
+				<dd id="property-guid">—</dd>
+
+				<dt>Model ID</dt>
+				<dd id="property-model">—</dd>
+
+				<dt>Local ID</dt>
+				<dd id="property-local">—</dd>
+			</dl>
+
+			<hr />
+
+			<h3>Property Sets & Quantities</h3>
+
+			<div id="related-sets">Select an element</div>
+		</aside>
+
+		<aside id="qto-panel">
+			<h2>Quantity Takeoff</h2>
+
+			<label for="qto-group">Group by</label>
+
+			<select id="qto-group">
+				<option value="material">Material</option>
+				<option value="level">Level</option>
+				<option value="typeName">Type</option>
+			</select>
+
+			<div id="qto-summary"></div>
+
+			<div id="qto-results"></div>
+
+			<hr />
+
+			<h2>Cost Estimation</h2>
+
+			<p>Demo estimate — assuming volume in m³</p>
+
+			<div id="cost-results"></div>
+
+			<h3 id="cost-total"></h3>
+		</aside>
+
+		<script type="module" src="/src/bim.ts"></script>
+	</body>
+</html>
